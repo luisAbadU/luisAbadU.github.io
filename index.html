@@ -3,213 +3,172 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hoja de Vida</title>
-
-    <!-- *******************************************+ -->
-    <!-- Bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="Hoja de vida de Luis Miguel Abad Hernández, estudiante de Administración de Sistemas Informáticos."
     />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- *******************************************+ -->
-
+    <meta name="theme-color" content="#ffffff" />
+    <title>Luis Miguel Abad Hernández | Hoja de vida</title>
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <div id="pdf-content" class="container-lg">
-      <div class="row shadow-lg rounded-4 overflow-hidden">
-        <!-- Columna Izuierda -->
-        <div class="col-md-5 bg-primary text-white p-4">
-          <header class="text-center mb-1">
-            <img
-              src="img/image.jpeg"
-              class="img-fluid rounded-circle border border-4 border-white mb-3"
-              alt="Foto de perfil"
-            />
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-            <h1 class="fw-bold mb-1">LUIS MIGUEL ABAD HERNANDEZ</h1>
-            <h2 class="h5">Administración de Sistemas</h2>
-          </header>
-          <!-- Contacto -->
-          <section class="mb-4">
-            <h5 class="fw-bold">
-              <i class="fa-solid fa-address-card mb-3 me-3"></i>
-              Contacto
-            </h5>
-            <ul class="list-unstyled">
-              <li class="mb-2">
-                <a
-                  href="https://wa.me/573016669016?text=Hola%20te%20voy%20a%20contratar%20ya"
-                  class="text-white"
-                  target="_blank"
-                >
-                  <i class="fa-brands fa-whatsapp me-2"></i>
-                  (+57) 301-666-9016
-                </a>
+    <main id="contenido" class="resume">
+      <header class="resume-header">
+        <p class="eyebrow">Hoja de vida</p>
+        <h1>Luis Miguel Abad Hernández</h1>
+        <p class="subtitle">Estudiante de Administración de Sistemas Informáticos</p>
+        <address class="contact-list" aria-label="Información de contacto">
+          <span>Manizales, Caldas</span>
+          <a href="mailto:labad@unal.edu.co">labad@unal.edu.co</a>
+          <a href="tel:+573016669016">(+57) 301-666-9016</a>
+          <a href="https://luisabadu.github.io/" target="_blank" rel="noopener noreferrer">
+            luisabadu.github.io
+          </a>
+        </address>
+      </header>
+
+      <div class="resume-grid">
+        <div class="resume-main">
+          <section class="resume-section" aria-labelledby="perfil">
+            <h2 id="perfil">Perfil</h2>
+            <p>
+              Estudiante de Administración de Sistemas Informáticos de la Universidad
+              Nacional de Colombia, con manejo de computador y aplicativos de software,
+              interés en el registro y monitoreo de información, y alta atención al
+              detalle y disciplina para cumplir metas de trabajo asignadas. Con
+              disponibilidad para trabajar fines de semana y festivos en modalidad
+              remota. Acostumbrado a registrar y verificar información técnica con
+              precisión, a seguir procedimientos paso a paso y a apoyar al equipo en las
+              tareas que se le asignen. Mi cercanía con la programación (Python y Java)
+              me da agilidad y fluidez para escribir y manejar el teclado, algo útil
+              para el ingreso rápido y preciso de registros.
+            </p>
+          </section>
+
+          <section class="resume-section" aria-labelledby="experiencia">
+            <h2 id="experiencia">Experiencia académica</h2>
+            <h3>Proyectos de redes en entornos simulados con GNS3</h3>
+            <p>
+              Proyectos donde la configuración exacta y la verificación de cada paso
+              son clave para que todo funcione:
+            </p>
+            <ul>
+              <li>
+                Diseñé y simulé topologías de red empresariales en GNS3, verificando el
+                funcionamiento de cada configuración.
               </li>
-              <li class="mb-2 print">
-                <i class="fas fa-envelope me-2"></i>
-                <h6>labad@unal.edu.co</h6>
+              <li>
+                Configuré VLAN y routing inter-VLAN para segmentar redes y comunicar
+                los segmentos entre sí.
               </li>
-              <li class="mb-2">
-                <i class="fas fa-map-marker-alt me-2"></i>
-                Manizales, Caldas
+              <li>
+                Implementé NAT estática y dinámica para dar salida a la red interna
+                hacia el exterior.
               </li>
-              <li class="mb-2">
-                <i class="fab fa-linkedin me-2"></i>
-                linkedin.com/in/luisAbadU
+              <li>
+                Apliqué ACL estándar y extendidas para controlar el tráfico según
+                reglas definidas.
               </li>
-              <li class="mb-2 print">
-                <a
-                  href="https://github.com/luisAbadU"
-                  target="_blank"
-                  class="text-white"
-                >
-                  <i class="fab fa-github me-2"></i>
-                  github.com/luisAbadU
-                </a>
+              <li>
+                Expliqué procesos técnicos de forma estructurada a compañeros de la
+                carrera.
               </li>
             </ul>
           </section>
-          <!-- Habilidades -->
-          <hr />
-          <section class="mb-2">
-            <h5 class="fw-bold">
-              <i class="fas fa-code me-2"></i>
-              Habilidades
-            </h5>
-            <div class="skill mb-3">
-              <div class="d-flex justify-content-between">
-                <span>Python</span>
-                <span>80%</span>
+
+          <section class="resume-section" aria-labelledby="educacion">
+            <h2 id="educacion">Educación</h2>
+            <article class="entry">
+              <div class="entry-heading">
+                <h3>Universidad Nacional de Colombia</h3>
+                <p class="entry-date">2022 – actual</p>
               </div>
-              <div class="progress" style="height: 8px">
-                <div class="progress-bar" style="width: 80%"></div>
+              <p>Pregrado en Administración de Sistemas Informáticos</p>
+              <ul>
+                <li>
+                  Vicerrepresentante estudiantil de la carrera de Administración de
+                  Sistemas Informáticos.
+                </li>
+                <li>
+                  Estudiante activo, con interés en el fortalecimiento académico propio
+                  y de mis compañeros.
+                </li>
+              </ul>
+            </article>
+            <article class="entry">
+              <div class="entry-heading">
+                <h3>Seminario Menor Nuestra Señora del Rosario</h3>
+                <p class="entry-date">2021</p>
               </div>
-            </div>
-            <div class="skill mb-3">
-              <div class="d-flex justify-content-between">
-                <span>Java</span>
-                <span>75%</span>
-              </div>
-              <div class="progress" style="height: 8px">
-                <div class="progress-bar" style="width: 75%"></div>
-              </div>
-            </div>
-            <div class="skill mb-3">
-              <div class="d-flex justify-content-between">
-                <span>Redes (CCNA)</span>
-                <span>85%</span>
-              </div>
-              <div class="progress" style="height: 8px">
-                <div class="progress-bar" style="width: 85%"></div>
-              </div>
-            </div>
-            <div class="skill mb-3">
-              <div class="d-flex justify-content-between">
-                <span>Inglés (B1+)</span>
-                <span>70%</span>
-              </div>
-              <div class="progress" style="height: 8px">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div>
-            </div>
-          </section>
-        </div> 
-        <!-- Columna Derecha -->
-        <div class="col-md-7 bg-light p-4">
-          <section class="mb-3">
-            <h4 class="fw-bold text-primary">
-              <i class="fas fa-user me-2"></i>
-              Perfil Profesional
-            </h4>
-            <div class="card mb-3">
-              <div class="card-body">
-                <p class="card-text">Estudiante de Administración de Sistemas Informáticos en la Universidad Nacional de Colombia, con interés en infraestructura de redes y sistemas operativos. Cuento con desempeño destacado en Fundamentos de Redes de Datos (4.7) y Sistemas Operativos (4.4), con experiencia en segmentación VLAN, configuración de NAT y ACL en entornos simulados virtuales GNS3. Me caracterizo por la capacidad de explicar procesos técnicos de forma estructurada y por el compromiso con el fortalecimiento académico propio y de mis compañeros.</p>
-              </div>
-            </div>
-          </section>
-          <section class="mb-3">
-            <h4 class="fw-bold text-primary">
-              <i class="fas fa-graduation-cap me-2"></i>
-              Educación
-            </h4>
-            <div class="card mb-3">
-              <div class="card-body">
-                <h4 class="card-title fw-bold">
-                 Administración de Sistemas Informáticos (Pregrado)
-                </h4>
-                <h4 class="card-subtitle mb-2 text-muted small">
-                  2022 – Actual
-                </h4>
-                <h6 class="text-primary">
-                 Universidad Nacional de Colombia
-                </h6>
-              </div>
-            </div>
+              <p>Bachiller académico</p>
+            </article>
           </section>
 
-          <section class="mb-3">
-            <h4 class="fw-bold text-primary">
-              <i class="fas fa-certificate me-2"></i>
-              Cursos Complementarios
-            </h4>
-            <div class="card mb-3">
-              <div class="card-body">
-                <h4 class="card-title fw-bold">Talento Tech</h4>
-                <h4 class="card-subtitle mb-2 text-muted small">2025</h4>
-                <h6 class="text-primary">Inteligencia Artificial Explorador G296 (UNAL)</h6>
-              </div>
-            </div>
-            <div class="card mb-3">
-              <div class="card-body">
-                <h4 class="card-title fw-bold">CCNA: Introduction to Networks</h4>
-                <h4 class="card-subtitle mb-2 text-muted small">2025</h4>
-                <h6 class="text-primary">Cisco Networking Academy - En proceso de emisión de certificado</h6>
-              </div>
-            </div>
+          <section class="resume-section" aria-labelledby="formacion">
+            <h2 id="formacion">Formación complementaria</h2>
+            <ul class="credential-list">
+              <li>
+                <strong>Inteligencia Artificial Explorador G296 (UNAL)</strong>
+                <span>Talento Tech, 2025</span>
+              </li>
+              <li>
+                <strong>CCNA: Introduction to Networks</strong>
+                <span>Cisco Networking Academy, 2025 · Certificado emitido</span>
+              </li>
+              <li>
+                <strong>AWS Cloud Foundations</strong>
+                <span>Certificado, 2025</span>
+              </li>
+            </ul>
           </section>
-
-          <section class="mb-3">
-            <h4 class="fw-bold text-primary">
-              <i class="fas fa-network-wired me-2"></i>
-              Experiencia Académica en Redes
-            </h4>
-            <div class="card mb-3">
-              <div class="card-body">
-                <ul class="mt-0">
-                  <li>Diseño y simulación de topologías empresariales en GNS3.</li>
-                  <li>Configuración de VLAN y routing inter-VLAN.</li>
-                  <li>Implementación de NAT estática y dinámica.</li>
-                  <li>Aplicación de ACL estándar y extendida.</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          
         </div>
+
+        <aside class="resume-sidebar" aria-label="Habilidades y disponibilidad">
+          <section class="resume-section" aria-labelledby="habilidades">
+            <h2 id="habilidades">Habilidades</h2>
+            <div class="skill-group">
+              <h3>Competencias</h3>
+              <p>
+                Digitación ágil, atención al detalle, registro y verificación de
+                información, cumplimiento de metas, comunicación clara, trabajo en
+                equipo, liderazgo y aprendizaje autónomo.
+              </p>
+            </div>
+            <div class="skill-group">
+              <h3>Herramientas</h3>
+              <p>Manejo de computador y aplicativos, Python, Java, GNS3 y fundamentos de nube (AWS).</p>
+            </div>
+            <div class="skill-group">
+              <h3>Técnicas</h3>
+              <p>Subnetting IPv4, VLAN, routing básico, NAT, ACL y modelo OSI.</p>
+            </div>
+            <div class="skill-group">
+              <h3>Idiomas</h3>
+              <p>Inglés (B1+).</p>
+            </div>
+          </section>
+
+          <section class="resume-section availability" aria-labelledby="disponibilidad">
+            <h2 id="disponibilidad">Disponibilidad</h2>
+            <p>
+              Disponibilidad para trabajar fines de semana y festivos, de 2:00 p.m. a
+              10:00 p.m., en modalidad remota.
+            </p>
+            <p>Cuento con computador propio y conexión a internet estable.</p>
+          </section>
+        </aside>
       </div>
-    </div>
 
-    <div class="text-center my-3">
-        <button onclick="downloadPDF()" class="btn btn-outline-primary">
-            Descargar PDF
+      <footer class="resume-footer" data-html2canvas-ignore="true">
+        <button class="download-button" type="button" onclick="downloadPDF()">
+          Descargar hoja de vida
         </button>
-
-    </div>
+      </footer>
+    </main>
 
     <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
     <script src="script.js"></script>
